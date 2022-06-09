@@ -14,13 +14,7 @@ public class PrivacyModel : PageModel
 
     public void OnGet()
     {
-      int cont = 0;
-
-      while(cont < 100){
-        cont++;
-      }
-
-      ViewData["contador"] = ++cont;
+     
     }
 }
 

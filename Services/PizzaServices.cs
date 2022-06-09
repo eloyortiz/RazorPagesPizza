@@ -9,8 +9,10 @@ public static class PizzaService
   {
     Pizzas = new List<Pizza>
       {
-          new Pizza { Id = 1, Name = "Classic Italian", Price=20.00M, Size=PizzaSize.Large, IsGlutenFree = false },
-          new Pizza { Id = 2, Name = "Veggie", Price=15.00M, Size=PizzaSize.Small, IsGlutenFree = true }
+          new Pizza { Id = 1, Name = "Margherita", Price=7.90M, Size=PizzaSize.Medium, IsGlutenFree = true },
+          new Pizza { Id = 2, Name = "Quattro formaggi", Price=8.90M, Size=PizzaSize.Medium, IsGlutenFree = false },
+          new Pizza { Id = 3, Name = "Prosciutto", Price=13.80M, Size=PizzaSize.Large, IsGlutenFree = false },
+          new Pizza { Id = 4, Name = "Pepperoni", Price=12.50M, Size=PizzaSize.Large, IsGlutenFree = false }
       };
   }
 
